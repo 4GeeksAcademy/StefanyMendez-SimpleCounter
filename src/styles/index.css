@@ -1,12 +1,55 @@
-
-/* 
-
-    You can write your own styles here...
+.containerDigits{
     
+    color: white;
+    background: #080808;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin:1rem
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+   
+}
+.containerDigits div{
 
-*/
+    display: inline-block;
+    line-height: 8rem;
+    background: #11120D;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 8.8rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    
+}
+h1{
+    font-size: 4rem;
+    margin: auto 2rem;
+    background: grey;
+    width: 25%;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    
+}
+
+form{
+    background: black;
+    color: white;
+    width: 32rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    
+}
+form label{
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
