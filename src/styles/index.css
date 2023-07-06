@@ -8,13 +8,12 @@
     padding: 1rem;
     margin:1rem
     
-   
 }
 .containerDigits div{
 
     display: inline-block;
     line-height: 8rem;
-    background: #11120D;
+    background-color: #11120D;
     padding: 2rem;
     margin: 1rem;
     font-size: 8.8rem;

@@ -77,10 +77,8 @@ const Timer = (props) => {
             return () => {
                         
                 clearInterval(interval.current)
-            }
-            
+            } 
         }
-
     }
     if (counter == 0) {
 
@@ -91,8 +89,6 @@ const Timer = (props) => {
             clearInterval(interval.current)
         }
     })
-
-
 
     return (
 

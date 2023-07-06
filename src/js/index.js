@@ -26,7 +26,6 @@ setInterval(() => {
 	const one = Math.floor(counter / 1) % 10;
 	counter++;
 
-
 	//render your react application
 	
 	ReactDOM.render(
